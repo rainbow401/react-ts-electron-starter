@@ -8,4 +8,4 @@ cnpm install
 提供热加载方便开发
 
 # 联系方式
-[Image text](./weixin.jpg)
+<img src="./weixin.jpg" width="700">
