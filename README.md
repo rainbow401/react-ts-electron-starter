@@ -1,7 +1,11 @@
 # 启动方式
 cnpm install
-
 # 架构
-以react为框架，集成了 electron 来开发桌面端app
+### reacte
+### electron 
+将web应用转换为桌面端app
+### electron-reloader
+提供热加载方便开发
 
+# 联系方式
 [Image text](./weixin.jpg)
