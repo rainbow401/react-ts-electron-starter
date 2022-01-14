@@ -2,6 +2,13 @@
 const { app, BrowserWindow } = require("electron");
 const path = require("path");
 
+//热加载 以下为增加部分
+try {
+	//引入electron-reloader。
+  require('electron-reloader')(module,{});
+} catch (_) {}
+//以上为增加部分
+
 function createWindow() {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
